@@ -14,11 +14,11 @@ for file in os.listdir(path):
     if ext in ['.gif', '.png', '.jpg', '.jpeg','.jfif']:
         file_name = path+"/"+file
 
-        print(file_name)
+        # print(file_name)
                
         images.append(file_name)
         
-print(len(images))
+# print(len(images))
 count = len(images)
 
 frame = cv2.imread(images[0])
